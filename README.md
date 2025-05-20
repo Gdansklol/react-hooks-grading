@@ -1,12 +1,42 @@
-# React + Vite
+#  React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ Sätta upp React + Vite i ett befintligt Git-repo
 
-Currently, two official plugins are available:
+1. Installera Vite med React-mall i nuvarande katalog
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm create vite@latest . -- --template react
 
-## Expanding the ESLint configuration
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- . betyder att installationen sker i den nuvarande mappen.
+
+2. Om detta meddelande visas:
+
+```bash
+Current directory is not empty. Please choose how to proceed:
+○ Remove existing files and continue
+○ Ignore files and continue
+○ Cancel operation
+
+```
+
+- ➡️ Välj “Ignore files and continue” om det bara finns
+ t.ex. README.md i mappen.
+
+ 3. Installera beroenden och starta utvecklingsservern
+
+ ```bash
+npm install         # Installerar alla nödvändiga paket
+npm run dev         # Startar dev-servern på http://localhost:5173
+
+ ```
+
+ 4. Lägg till ändringar i Git och gör en commit
+
+```bash
+git add .
+git commit -m "commit"
+git push origin main
+
+```
