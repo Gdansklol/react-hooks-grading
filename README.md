@@ -99,6 +99,7 @@ const [checked, setChecked] = useState({
   kiwi: false,
   strawberry: false
 });
+```
 
 ** Startar med alla frukter som inte är valda (false) **
 
@@ -154,6 +155,8 @@ Object.keys(checked).map((fruit) => (
 
 - Språkligt tydlig kod med enkel logik för junior frontendutvecklare
 
+---
+
 ##  Shopping Cart med `useReducer` (React)
 
 ###  Syfte:
@@ -162,7 +165,6 @@ Hantera en varukorg där användaren kan:
 - Öka/minska kvantitet
 - Ta bort produkter
 
----
 
 ### ⚙️ useReducer
 ```js
