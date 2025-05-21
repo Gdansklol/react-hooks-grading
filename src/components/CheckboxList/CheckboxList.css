@@ -1,0 +1,69 @@
+/* src/components/CheckboxList/CheckboxList.css */
+
+/* Outer wrapper to center the content */
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    background-color: #f2f2f2;
+  }
+  
+  /* Main container for the checkbox list */
+  .checkbox-list {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+  
+  /* Heading style */
+  .checkbox-list h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Label and input styles */
+  .checkbox-list label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .checkbox-list input[type='checkbox'] {
+    margin-right: 0.5rem;
+    transform: scale(1.2);
+  }
+  
+  /* Selected fruits text */
+  .selected {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments for larger screens */
+  @media (min-width: 768px) {
+    .checkbox-list {
+      padding: 2rem;
+    }
+  
+    .checkbox-list h2 {
+      font-size: 1.4rem;
+    }
+  
+    .checkbox-list label {
+      font-size: 1.1rem;
+    }
+  
+    .selected {
+      font-size: 1rem;
+    }
+  }
+  
